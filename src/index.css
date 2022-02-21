@@ -105,11 +105,16 @@ a:hover {
 }
 
 header {
-  background: var(--dark);
+  background: var(--primary);
 }
 
 header a {
   color: var(--light);
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
 }
 
 button {
@@ -134,7 +139,7 @@ button[disabled] {
 }
 
 img {
-  max-width: 100%;
+  max-width: 25%;
 }
 
 span[role="img"] {
