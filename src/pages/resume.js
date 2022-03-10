@@ -4,6 +4,7 @@ function Resume() {
     return (
         <section>
             <h2>Resume</h2>
+            
             <h3>Front Proficiencies</h3>
             <ul>
                 <li>HTML5</li>

@@ -28,6 +28,11 @@ function Contact() {
 
     function handleSubmit(e) {
         e.preventDefault();
+        // setFormState();
+        name = '';
+        email = '';
+        message= '';
+        alert('Your message has been sent');
         console.log(formState);
     }
 

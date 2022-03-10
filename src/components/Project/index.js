@@ -1,12 +1,14 @@
 import React from 'react';
-import image1 from '../../assets/images/follow-the-money-screenshot.png';
+// import image1 from '../../assets/images/follow-the-money-screenshot.png';
 
-function Project() {
+function Project(props) {
+    const { name, link, image } = props;
+
     return (
-        <div>
-            <h2>Project</h2>
-            <a href="/" target="_blank">
-                <img src={image1} alt="screenshot"></img>
+        <div className="portfolio">
+            <h2>{name}</h2>
+            <a href={link} target="_blank" rel="noreferrer">
+                <img src={image} alt="screenshot" />
             </a>
         </div>
     )
